@@ -22,6 +22,10 @@ PLATFORM_smarc-rzv2l = "v2l"
 EXTRA_FLAGS_smarc-rzv2l = "BOARD=smarc_4"
 PMIC_EXTRA_FLAGS_smarc-rzv2l = "BOARD=smarc_pmic_2"
 
+PLATFORM_ly-rzv2l = "v2l"
+EXTRA_FLAGS_ly-rzv2l = "BOARD=smarc_4"
+PMIC_EXTRA_FLAGS_ly-rzv2l = "BOARD=smarc_pmic_2"
+
 PLATFORM_rzv2l-dev = "v2l"
 EXTRA_FLAGS_rzv2l-dev = "BOARD=dev15_4"
 

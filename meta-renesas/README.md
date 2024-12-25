@@ -197,7 +197,7 @@ Currently, there are 2 types of build procedure supported in below description:
 |RZ/G2L     |rzg2l     |smarc-rzg2l, rzg2l-dev  |
 |RZ/G2LC    |rzg2l     |smarc-rzg2lc, rzg2lc-dev|
 |RZ/G2UL    |rzg2l     |smarc-rzg2ul, rzg2ul-dev|
-|RZ/V2L     |rzv2l     |smarc-rzv2l, rzv2l-dev  |
+|RZ/V2L     |rzv2l     |smarc-rzv2l, rzv2l-dev, ly-rzv2l  |
 |RZ/V2M     |rzv2m     |rzv2m                   |
 |RZ/V2MA    |rzv2m     |rzv2ma                  |
 |RZ/Five    |rzfive    |smarc-rzfive, rzfive-dev|
@@ -220,7 +220,7 @@ Currently, there are 2 types of build procedure supported in below description:
 * RZ/G2L:  smarc-rzg2l, rzg2l-dev
 * RZ/G2LC: smarc-rzg2lc, rzg2lc-dev
 * RZ/G2UL: smarc-rzg2ul, rzg2ul-dev
-* RZ/V2L:  smarc-rzv2l, rzv2l-dev
+* RZ/V2L:  smarc-rzv2l, rzv2l-dev, ly-rzv2l
 * RZ/Five:  smarc-rzfive, rzfive-dev
 - Build the target file system image using bitbake:
     ```bash
