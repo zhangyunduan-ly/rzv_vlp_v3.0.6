@@ -14,7 +14,7 @@ COMPATIBLE_MACHINE_rzg3s = "(rzg3s-dev|smarc-rzg3s)"
 KERNEL_URL = " \
     git://github.com/zhangyunduan-ly/rz_linux-cip-ly.git"
 BRANCH = "${@oe.utils.conditional("IS_RT_BSP", "1", "rz-5.10-cip41-rt17", "develop-v2l-ly",d)}"
-SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "fa9c20fae317380a56644d4f27643cf869e52985", "2ae34f2afe94bad02418fa71a3c7833d5e957017",d)}"
+SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "fa9c20fae317380a56644d4f27643cf869e52985", "db30bdddde6b42cc517d4d5f4a7cf2ce2b09e7de",d)}"
 
 SRC_URI = "${KERNEL_URL};protocol=https;nocheckout=1;branch=${BRANCH}"
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
